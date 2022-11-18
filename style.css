@@ -63,11 +63,13 @@ ul li a {
     font-size: 14px;
     margin-bottom: 16px;
     border-radius: 6px;
-    transition: background 400ms;
+    /*transition: background 400ms;*/
+    transition: background-color, transform 0.4s;
 }
 
 ul li a:hover {
-    background-color: #d44192;
+    background-color: #da1276c9;
+    transform: scale(1.05);
 }
 
 footer {
